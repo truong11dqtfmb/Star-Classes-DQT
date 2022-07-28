@@ -1,0 +1,217 @@
+li {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+
+}
+
+/*-------------------INDEX-------------------------*/
+/*Menu*/
+.top-menu {
+	background: #3f2a2a;
+	border-radius: 0;
+	border: none;
+}
+
+.top-menu li.active a {
+	background: #f38356 !important;
+}
+
+.header-form {
+	text-align: right;
+}
+
+.main-menu {
+	border-top: none;
+	border-bottom: 3px solid #f38356;
+	border-radius: 0;
+}
+
+html {
+	font-size: 100%;
+}
+
+.product .title {
+	height: 6vh;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 3;
+	overflow: hidden;
+	line-height: 2vh;
+}
+
+.banner {
+	background: #fff;
+}
+
+ul li {
+	text-decoration: none;
+	list-style-type: none;
+}
+
+/*Banner*/
+.banner-right {
+	width: 75%;
+}
+
+.banner-left {
+	width: 23%;
+}
+
+.margintop {
+	margin-top: 80px;
+}
+
+.cartegory li:hover .sub-menu {
+	display: block;
+}
+
+.sub-menu {
+	display: none;
+}
+
+/*Product*/
+.product h2 .title {
+	font-size: 20px;
+}
+
+.product h4 .title {
+	font-size: 14px;
+}
+
+.product p {
+	font-size: 13px;
+}
+
+.product .pro-text {
+	padding: 15px 0;
+	margin-bottom: 15px;
+	border-bottom: 2px solid #f38356;
+}
+
+.product .thumbnail {
+	overflow: hidden;
+}
+
+.thumbnail_product:hover {
+	transition: 0.5s;
+	transform: scale(1.1);
+	background: rgb(204, 226, 240);
+	box-shadow: 2px 2px 2px 2px rgb(204, 226, 240);
+}
+
+/*Footer*/
+.footer h2 {
+	opacity: 0.6;
+}
+
+.footer-top {
+	background: #b8b2ac;
+}
+
+.footer-top-left {
+	margin-top: 20px;
+}
+
+.footer-top-right {
+	margin-top: 40px;
+	text-align: right;
+}
+
+.footer-icon {
+	color: #544f4b;
+	font-size: 35px;
+}
+
+.footer-icon i {
+	transform: rotate(0deg);
+	transition: 0.5s all;
+}
+
+.footer-icon:hover i {
+	transform: rotate(360deg);
+}
+
+.footer-main {
+	border-top: 3px solid #f38356;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+/*-----------------Product---------------------*/
+/*Cartegory*/
+ul.cartegory {
+	list-style-type: none;
+	padding: 0 0 15px 0;
+	border-bottom: 2px solid #f38356;
+}
+
+ul.cartegory li a {
+	color: #333;
+	text-decoration: none;
+	padding: 5px;
+	display: inline-block;
+	width: 100%;
+	transition: 0.5s all;
+}
+
+ul.cartegory li a:hover {
+	background: #f38356;
+	color: #fff;
+	padding-left: 15px;
+	padding-right: 10px;
+}
+
+ul.cartegory .icon {
+	margin-top: 5px;
+	font-size: 10px;
+}
+
+.account-page {
+	width: 50%;
+	margin: auto;
+}
+
+.about {
+	padding: 0 0 25px 0;
+	width: 100%;
+	float: left;
+}
+
+.about h2 {
+	margin-top: 0;
+}
+
+.about img {
+	margin-top: 15px;
+}
+
+.about-title {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	font-size: 24px;
+	width: 100%;
+	float: left;
+}
+
+.blog h3 {
+	margin-top: 0;
+}
+
+.right-ads {
+	margin-top: 15px;
+}
+
+.right-ads .ads-item {
+	margin-bottom: 10px;
+}
+
+.comments {
+	border-top: 2px solid #f38356;
+}
